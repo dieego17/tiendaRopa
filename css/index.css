@@ -1,0 +1,252 @@
+@font-face {
+    font-family: PoppinsB;
+    src: url(../assets/fonts/poppins_black.ttf);
+}
+@font-face {
+    font-family: Un;
+    src: url(../assets/fonts/unbounded_light.ttf);
+}
+@font-face {
+    font-family: Inconsolata;
+    src: url(../assets/fonts/inconsolata_variablefont_wdth\,wght.ttf);
+}
+body{
+    display: inline-block;
+    flex-wrap: wrap;
+}
+/* HEADER */
+.container_header{
+    max-width: 1300px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-color:white; 
+}
+.dev{
+    background-color: black;
+}
+.p_header{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 1rem;
+    font-family: Inconsolata;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.p{
+    color: black;
+    font-family: Inconsolata;
+}
+.nav{
+    text-align: center;
+}
+.enlace_nav{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: 1.2rem;
+    font-family: Inconsolata;
+}
+.enlace_nav:hover{
+    color: cornflowerblue;
+}
+.img_header{
+    text-align: end;
+}
+.img{
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+}
+
+/* IMAGÉN NAVIDAD */
+.container_img{
+    width: 1000px;
+    margin: 0 auto;
+}
+.img_navidad{
+    width: 1000px;
+    max-width: 1300px;
+    padding-top: 30px;
+}
+
+/* MAIN */
+.container_main{
+    max-width: 1300px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.p_main{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: PoppinsB;
+}
+.img_main1{
+    padding: 10px;
+}
+.img_div_main{
+    width: 300px;
+    padding: 20px 20px 20px 60px;
+}
+.img_main1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p_ropa{
+    text-align: center;
+    align-items: center;
+    padding-left: 40px;
+    font-family: Inconsolata;
+}
+.p_ropa1{
+    font-family: PoppinsB;
+}
+.todo_ropa2{
+    padding-top: 70px;
+    margin: 10px;
+}
+.todo_ropa3{
+    padding-top: 80px;
+}
+.todo_ropa4{
+    padding-top: 20px;
+    margin: 10px;
+}
+.todo_ropa5{
+    padding-top: 155px;
+}
+.todo_ropa6{
+    padding-top: 115px;
+}
+.todo_ropa7{
+    padding-top: 125px;
+    margin: 10px;
+}
+.reyes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.img_reyes{
+    width: 500px;
+    height: 690px;
+}
+.img_ropa{
+    display: flex;
+}
+.p_img_ropa{
+    text-align: center;
+    font-family: PoppinsB;
+}
+.p_img_ropa_dinero{
+    text-align: center;
+    font-family: Inconsolata;
+}
+.div_img_ropa1{
+   padding-top: 20px;
+}
+
+/* FOOTER */
+.container_footer{
+    background-color: gray;
+}
+.suscrib{
+    width: 1350px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.footer{
+    align-items: center;
+    margin-top: 20px;
+}
+.h2_footer{
+    color: black;
+    padding: 30px 40px 0px;
+    font-family: PoppinsB;
+}
+.formulario_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.texto_form{
+    padding: 5px 210px 5px 0px;
+}
+.boton_form{
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+}
+.boton_form:hover{
+    color: black;
+    background-color: white;
+}
+.formulario{
+    margin-right: 60px;
+}
+.p_enlace{
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
+.formulario_check{
+    text-align: end;
+    font-family: Inconsolata;
+    padding-right: 20px;
+    font-size: 0.84rem;
+}
+.rrss_footer{
+    text-align: end;
+    padding: 20px 360px 10px 0px;
+    border-bottom: 1px solid black;
+}
+.img_rrss{
+    width: 30px;
+    padding: 5px;
+}
+.enlace_footer{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+.enlace_footer:hover{
+    color: white;
+}
+.p_footer{
+    color: black;
+    text-align: center;
+    padding: 3px 20px 20px 20px;
+    font-family: Inconsolata;
+    font-size: 0.8rem;
+    margin-left: 20px;
+}
+.lista_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ul_footer{
+    width: 300px;
+}
+.li_footer{
+    list-style: none;
+    padding: 5px;
+    font-family: Inconsolata;
+}
+.h4{
+    padding-left: 23px;
+    font-family: PoppinsB;
+}
+.h3_footer{
+    text-align: center;
+    padding: 20px;
+    font-family: PoppinsB;
+}

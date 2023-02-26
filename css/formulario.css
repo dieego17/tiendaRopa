@@ -1,0 +1,161 @@
+@font-face {
+    font-family: PoppinsB;
+    src: url(../assets/fonts/poppins_black.ttf);
+}
+@font-face {
+    font-family: Un;
+    src: url(../assets/fonts/unbounded_light.ttf);
+}
+@font-face {
+    font-family: Inconsolata;
+    src: url(../assets/fonts/inconsolata_variablefont_wdth\,wght.ttf);
+}
+body{
+    width: 1200px;
+    max-width: 1300px;
+    margin: 0 auto;
+    background: linear-gradient(to right, black, gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* TARJETA */ 
+.container_form{
+    width: 450px;
+    background: rgba(255, 255, 255, .5);
+    padding: 4rem;
+    border-radius: 20px;
+    margin: 50px;
+}
+.h1_div{
+    text-align: center;
+    font-family: PoppinsB;
+}
+/* USUARIO */
+.usuario{
+    text-align: center;
+    padding: 20px;
+}
+.usuario_nombre{
+    padding: 10px 130px 10px 10px;
+    font-family: Inconsolata;
+}
+.usuario_cuadrado{
+    display: flex;
+    justify-content: center;
+}
+.usuario_cuad{
+    border-radius: 10px;
+}
+/* CONTRASEÑA */
+.contraseña_cuadrado{
+    display: flex;
+    justify-content: center;
+}
+.password_cuad{
+    border-radius: 10px;
+}
+.img_logo{
+    width: 30px;
+}
+.contraseña{
+    text-align: center;
+}
+.contraseña_nombre{
+    padding: 10px 110px 10px 10px;
+    font-family: Inconsolata;
+}
+/* CHECKBOX */
+.remember{
+    padding-left: 100px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    font-family: Inconsolata;
+}
+/* OLVIDADO CONTRASEÑA */
+.enlace_contra{
+    text-decoration: none;
+    color: #8360c3;
+    padding-left: 10px;
+    font-family: Inconsolata;
+}
+.enlace_contra:hover{
+    color: gray;
+}
+/* BOTON ENTRAR */
+.boton{
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: Inconsolata;
+}
+.boton_inicio{
+    background-color: #2ebf91;
+    text-decoration: none;
+    padding: 5px 100px;
+    border-radius: 10px;
+    color: black;
+    margin: 10px;
+    font-family: Inconsolata;
+}
+.boton_inicio:hover{
+    background-color: rgba(255, 255, 255, .5);
+}
+.cuenta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Inconsolata;
+}
+/* NO TIENE CUENTA */
+.p_cuenta{
+    padding-right: 10px;
+    font-family: Inconsolata;
+}
+.a_cuenta{
+    text-decoration: none;
+    color: #8360c3;
+    font-family: Inconsolata;
+}
+.a_cuenta:hover{
+    color: gray;
+}
+/* LOGOS */
+.p_logo{
+    text-align: center;
+    font-family: Inconsolata;
+}
+.log_rrss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* FACEBOOK */
+.img_facebook{
+    width: 30px;
+    padding: 10px;
+    margin: 10px;
+    background: #2ebf91;
+    border-radius: 100px;
+    background: linear-gradient(to right, #002bff , #4415d3bf);
+}
+/* EMAIL */
+.img_email{
+    width: 30px;
+    padding: 10px;
+    margin: 10px;
+    background: #2ebf91;
+    border-radius: 100px;
+    background: linear-gradient(to right, #833ab4, #fd1d1d9e, #fcb045);
+}
+/* TWITTER */
+.img_twitter{
+    width: 30px;
+    padding: 10px;
+    margin: 10px;
+    background: #2ebf91;
+    border-radius: 100px;
+    background: linear-gradient(to right, #2193b0 , #6dd5ed);
+}
